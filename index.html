@@ -7,27 +7,44 @@
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/8d62256ae4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="grid">
         <div class="sidebar">
-            <div class="logo">
-                <p class="text-logo">Dashboard</p>
-            </div>
-            <div class="items-sidebar">
+            <div class="logo-section">
                 <ul>
+                    <li class="icon">
+                        <i class="fa-regular fa-square"></i>
+                    </li>
+                    <li>
+                        <p>Dashboard</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="items-section">
+                <ul>
+                    <li class="icon"><i class="fa-solid fa-house"></i></li>
                     <li>Home</li>
+                    <li class="icon"><i class="fa-regular fa-address-card"></i></li>
                     <li>Profile</li>
+                    <li class="icon"><i class="fa-solid fa-message"></i></li>
                     <li>Messages</li>
+                    <li class="icon"><i class="fa-solid fa-clock"></i></li>
                     <li>History</li>
+                    <li class="icon"><i class="fa-regular fa-note-sticky"></i></li>
                     <li>Tasks</li>
+                    <li class="icon"><i class="fa-solid fa-users"></i></li>
                     <li>Communities</li>
                 </ul>
             </div>
-            <div class="config-items">
+            <div class="config-section">
                 <ul>
+                    <li class="icon"><i class="fa-solid fa-gear"></i></li>
                     <li>Settings</li>
+                    <li class="icon"><i class="fa-solid fa-circle-question"></i></li>
                     <li>Support</li>
+                    <li class="icon"><i class="fa-solid fa-shield-halved"></i></li>
                     <li>Privacy</li>
                 </ul>
             </div>
@@ -35,18 +52,22 @@
         <div class="header">
             <div class="header-top">
                 <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                     <input type="search">
                 </div>
                 <div class="profile-small">
-                    <img src="" alt="Profile_img">
-                    <p class="name">Morgan Oakley</p>
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="https://cdn.donmai.us/sample/49/c8/sample-49c87f922b07efe32e96df3a39321817.jpg" alt="Profile_img">
+                    <p class="name">Makima</p>
                 </div>
             </div>
             <div class="header-main">
-                <img src="" alt="Profile_img">
-                <div class="welcome-msg">
-                    <p>Hi there,</p>
-                    <p>Morgan Oakley (@morgan)</p>
+                <div class="welcome-section">
+                    <img src="https://cdn.donmai.us/sample/49/c8/sample-49c87f922b07efe32e96df3a39321817.jpg" alt="Profile_img">
+                    <div class="welcome-msg">
+                        <p>Hi there,</p>
+                        <p>Makima (@makima)</p>
+                    </div>
                 </div>
                 <div class="actions">
                     <ul>
@@ -66,34 +87,64 @@
                         <p class="card-description">
                             Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.
                         </p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                     <div class="card-item">
                         <p class="card-title">Less Cool Project</p>
                         <p class="card-description">
                             Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.
                         </p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                     <div class="card-item">
                         <p class="card-title">Impossible App</p>
                         <p class="card-description">
                             In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.
                         </p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                     <div class="card-item">
                         <p class="card-title">Easy Peasy App</p>
                         <p class="card-description">Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                     <div class="card-item">
                         <p class="card-title">Ad Blocker</p>
                         <p class="card-description">
                             Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada erors.
                         </p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                     <div class="card-item">
                         <p class="card-title">Money Maker</p>
                         <p class="card-description">
                             Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.
                         </p>
+                        <div class="card-actions">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-eye"></i>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,12 +157,14 @@
                             Vestibulum condimentum tellus lacus in accumsan elit maximus ac. Donec hendrerit sodales congue...
                         </p>
                     </div>
+                    <hr>
                     <div class="announcements-items">
                         <p class="item-title">Community Share Day</p>
                         <p class="description">
                             Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam disctum accumsan porttitor...
                         </p>
                     </div>
+                    <hr>
                     <div class="announcements-items">
                         <p class="item-title">Update Privacy Policy</p>
                         <p class="description">
@@ -121,28 +174,29 @@
                 </div>
             </div>
             <div class="trending">
-                <div class="trending-imgs">
-                    <img src="" alt="trending-img">
-                    <img src="" alt="trending-img">
-                    <img src="" alt="trending-img">
-                    <img src="" alt="trending-img">
-                </div>
-                <div class="trending-info">
+                <p class="title-main-content">Trending</p>
+                <div class="trending-grid">
+                    <img src="https://i.pinimg.com/originals/a5/80/3e/a5803ef313f74b294da49b1ca7097528.jpg" alt="trending-img">
                     <div class="item-info">
-                        <p class="nickname">@tegan</p>
-                        <p class="info">World Peace Builder</p>
+                        <p class="nickname">@denji</p>
+                        <p class="info">"What, the old man never taught you? The prey must never trust what a hunter says!"</p>
                     </div>
-                    <div class="item-info">
-                        <p class="nickname">@morgan</p>
-                        <p class="info">Super Cool Project</p>
+                    <img src="https://cdn.donmai.us/sample/49/c8/sample-49c87f922b07efe32e96df3a39321817.jpg" alt="trending-img">
+                     <div class="item-info">
+                        <p class="nickname">@makima</p>
+                        <p class="info">"I want to use Chainsaw Man... to create a better world."</p>
                     </div>
+                    <img src="https://avatarfiles.alphacoders.com/303/thumb-303426.jpg" alt="trending-img">
                     <div class="item-info">
-                        <p class="nickname">@kendall</p>
-                        <p class="info">Life Changing App</p>
+                        <p class="nickname">@power</p>
+                        <p class="info">"Bow before me, human! My name is Power!"
+
+                        </p>
                     </div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlakZ1h5_0tqMURO1i_UA7WEkjtYixhLGzMusPYZqhkJqF2TvD0_uJSXBlWOp9CuPTFao&usqp=CAU" alt="trending-img">
                     <div class="item-info">
-                        <p class="nickname">@alex</p>
-                        <p class="info">No Traffic</p>
+                        <p class="nickname">@aki</p>
+                        <p class="info">Even if my life is shortened... I won't let Denji get killed!"</p>
                     </div>
                 </div>
             </div>
